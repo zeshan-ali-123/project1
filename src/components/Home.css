@@ -1,0 +1,34 @@
+
+
+body {
+    background-image: url('./js.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.suma {
+    padding-top: 350px;
+    color: #F5F5DC;
+    text-align: center;
+}
+
+.suma1 {
+    width: 100%;
+}
+
+.suma1 button {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.767);
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Apply proper border-radius */
+    color: black; /* Ensure text is visible on button */
+    padding: 10px 20px; /* Add padding for better button appearance */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.suma1 button:hover {
+    color: beige; /* Darken button on hover */
+    background-color: rgba(0, 0, 0, 0.708);
+}

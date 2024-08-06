@@ -1,0 +1,76 @@
+/* src/components/Login.css */
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    
+  }
+  .login-container form{
+    justify-content: center;
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container form {
+
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .login-container input {
+
+    margin-bottom: 12px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-container button {
+    padding: 10px;
+    background-color: black;
+    color: lightgray;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  .login-container button:hover {
+    background-color: black;
+    color: white;
+    
+  }
+  
+  .login-container p {
+    text-align: center;
+  }
+  
+  .login-container p a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .login-container p a:hover {
+    text-decoration: none;
+  }
+  body{
+    background-image: url('./js.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
